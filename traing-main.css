@@ -1,0 +1,101 @@
+main {
+  margin-left: 5px;
+}
+.sales-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100vw;
+  border-bottom: 1px solid rgb(211, 214, 218);
+}
+.sales-info img {
+  width: 50px;
+  height: 80px;
+}
+.product-info {
+  margin-left: 5px;
+}
+.title {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.price {
+  font-weight: bold;
+}
+section {
+  margin-top: 5px;
+}
+.question {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.question-text {
+  width: 260px;
+  font-size: 15px;
+  background-color: rgb(254, 126, 53);
+  color: white;
+  padding: 10px;
+  border-radius: 10px 0px 10px 10px;
+  margin: 10px 20px 5px 5px;
+}
+.question-time {
+  font-size: 13px;
+  padding-bottom: 5px;
+  color: rgb(168, 167, 169);
+}
+.response {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.response img {
+  width: 35px;
+  margin-left: 20px;
+}
+.response-text {
+  width: 160px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 0px 10px 10px 10px;
+  background-color: rgb(234, 235, 240);
+  margin: 10px 5px 5px 5px;
+}
+.response-time {
+  font-size: 10px;
+  padding-bottom: 5px;
+  color: rgb(168, 167, 169);
+}
+.alertbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.alert {
+  width: 300px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: 1px solid rgb(237, 237, 237);
+  padding: 20px 40px 20px 20px;
+  margin: 10px 5px 20px 20px;
+}
+.alert img {
+  width: 15px;
+  padding-right: 10px;
+}
+.alert-contents {
+  flex-direction: column;
+}
+.alert-contents__date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.alert-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: rgb(168, 167, 169);
+}

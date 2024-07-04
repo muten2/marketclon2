@@ -1,0 +1,39 @@
+footer {
+  position: fixed;
+  bottom: 0;
+}
+.chat {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(242, 243, 247);
+}
+.btn {
+  font-size: 50px;
+  margin-left: 20px;
+  color: rgb(206, 209, 221);
+  padding-bottom: 15px;
+}
+.chatbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+  width: 240px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 20px;
+}
+.text {
+  color: rgb(206, 209, 221);
+  font-weight: bold;
+  font-size: small;
+}
+.send {
+  margin: 0 20px 0 0;
+}
+.send img {
+  width: 20px;
+}
